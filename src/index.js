@@ -1,12 +1,14 @@
+// importing OBJECT React from MODULE react
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
-import Counter from "./components/counter";
+import Counters from "./components/counters";
 
-ReactDOM.render(<Counter />, document.getElementById("root"));
+// (element_we_want_to_render, get a reference to our container)
+ReactDOM.render(<Counters />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
